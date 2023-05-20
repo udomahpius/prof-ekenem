@@ -247,8 +247,8 @@
 
 @media (max-width: 768px) {
     #header-carousel .carousel-item {
-        position: relative;
-        min-height: 450px;
+        position: relative; 
+         min-height: 450px;
     }
     
     #header-carousel .carousel-item img {
@@ -258,20 +258,36 @@
         object-fit: cover;
     }
 }
+@media (min-width: 768px) {
+    #header-carousel .carousel-item {
+        position: relative; 
+         min-height: 600px !important;
+         padding-top: .5rem;
+         margin-top: 0 !important;
+    }
+    
+    .page-header{
+        width: 200px !important;
+    }
+}
+
+
+
 @media(max-width:991px){
- .mobile-display{
+ .mobile-display img{
         display: none !important;
         
     }
-    #header-carousel{
-        height: 100% !important;
-        width: 100% !important;
-    }
     .mobile-center{
         text-align: center !important;
-        margin-top: 3rem !important;
+    }
+    .content-justify{
+        justify-content: center;
     }
 }
+
+  
+   
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
