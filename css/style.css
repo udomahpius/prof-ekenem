@@ -42,11 +42,37 @@
 
 
 }
+
 .button-bg-and-color-for-white-bg-2:hover{
     background:#251004;
     color: #FFFFFF;
     border:none;
 
+}.publication-bg-and-color-for-white-bg{
+    background: #065e40;
+    color: #fff;
+    border: 1px #065e40 solid;
+
+}
+.button-hover{
+    border: 1px #065e40 solid;
+}
+.button-hover:hover{
+    background: #065e40;
+    color: #fff;
+
+}
+.references div{
+    height: 30vh;
+}
+.blog-height .product-item{
+    height: 100%;
+    padding-bottom: 0 !important;
+}
+.blog-height .product-item img{
+    width: 100% !important;
+    height: 250px !important;
+    /* padding: 15px; */
 }
 
 .back-to-top {
@@ -369,11 +395,14 @@
 
 .nav-pills .nav-item .btn:hover,
 .nav-pills .nav-item .btn.active {
-    color: #FFFFFF;
+    color: #251004;
 }
 
 .product-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+}
+.product-item p{
+    font-size: 12px !important;
 }
 
 .product-item img {
@@ -443,6 +472,7 @@
 /*** Footer ***/
 .footer {
     color: #999999;
+    background: #251004 !important;
 }
 
 .footer .btn.btn-link {
@@ -483,4 +513,18 @@
 
 .footer .copyright a:hover {
     color: #065e40;
+}
+.footer .footer-logo img{
+    width: 180px !important;
+}
+.footer .link-logo a img{
+    width: 50px !important;
+}
+.footer .link-logo a img:hover{
+    width: 30px !important;
+    transition:all 0.5s ease-in-out ;
+}
+
+.footer .link-logo{
+    gap: 15px !important;
 }
