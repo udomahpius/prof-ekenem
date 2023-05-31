@@ -1,44 +1,44 @@
 /********** Template CSS **********/
 :root {
-    --primary: #81da8c;
+    --primary: #849ff8;
     --secondary: #F65005;
     --light: #F7F8FC;
     --dark: #111111;
-    --button:#065e40;
-    --info: #81da8c;
+    --button:#5959fa;
+    --info: #849ff8;
 
 }
 .bg-color{
-    background-color:  #052724 !important;
+    background-color:  navy !important;
 }
 .icon-color{
-    color: #065e40 !important;
+    color: #5959fa !important;
 }
 .button-bg-and-color{
-    background: #065e40;
+    background:darkblue;
     color: #FFFFFF;
 }
 
 .button-bg-and-color:hover{
     background:none;
-    color:#065e40;
-    border: 1px #065e40 solid;
+    color:#4f4ff5;
+    border: 1px darkblue solid;
 }
 .button-bg-and-color-for-white-bg{
-    background: #065e40;
+    background:#849ff8 ;
     color: #FFFFFF;
 
 }
 .button-bg-and-color-for-white-bg:hover{
     background:#e4e2e2;
-    color: #065e40;
-    border: 1px #065e40 solid;
+    color: #4f4ff5;
+    border: 1px #4f4ff5 solid;
 
 }
 .button-bg-and-color-for-white-bg-2{
     background:#a8dacc;
     color: #000;
-    border: 1px #065e40 solid;
+    border: 1px #4f4ff5 solid;
     transition: all ease-in-out 0.5s !important;
 
 
@@ -46,20 +46,20 @@
 
 .button-bg-and-color-for-white-bg-2:hover{
     background:#e4e2e2;
-    color: #065e40;
+    color: #4f4ff5;
     border:none;
 
 }.publication-bg-and-color-for-white-bg{
-    background: #065e40;
+    background: #4f4ff5;
     color: #fff;
-    border: 1px #065e40 solid;
+    border: 1px #4f4ff5 solid;
 
 }
 .button-hover{
-    border: 1px #065e40 solid;
+    border: 1px #4f4ff5 solid;
 }
 .button-hover:hover{
-    background: #065e40;
+    background: navy;
     color: #fff;
 
 }
@@ -207,7 +207,7 @@
 
 
 .carousel-blen-mode{
-    background:#a8dacc !important;
+    background:#7171fa !important;
     background-image: url(../img/ekemem-1-removebg-preview.png) !important;
     background-blend-mode: soft-light !important;
     background-repeat: no-repeat !important;
